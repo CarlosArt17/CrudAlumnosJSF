@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/HolaMundoJSF">
+    <Resource name="jdbc/CrudAlumnos" auth="Container" type="javax.sql.DataSource"
+          validationQuery="SELECT 1" validationInterval="30000" maxActive="-1"
+          minIdle="10" maxWait="10000" initialSize="10" jmxEnabled="true"
+          username="postgres" password="postgres" driverClassName="org.postgresql.Driver"
+          url="jdbc:postgresql://localhost:5432/my_pgdb"/>
+</Context>
